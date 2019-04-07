@@ -1,2 +1,2 @@
-vtki
+git+git://github.com/vtkiorg/vtki@master
 matplotlib
