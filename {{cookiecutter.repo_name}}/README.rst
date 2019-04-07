@@ -13,7 +13,7 @@
 Credits
 -------
 
-This package was created with `Cookiecutter`_ and the `vtkiorg/cookiecutter-vtki-binder`_ project template.
+This project was created with `Cookiecutter`_ and the `vtkiorg/cookiecutter-vtki-binder`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`vtkiorg/cookiecutter-vtki-binder`: https://github.com/vtkiorg/cookiecutter-vtki-binder
