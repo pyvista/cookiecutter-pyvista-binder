@@ -1,0 +1,11 @@
+{
+    "repo_name": "vtki-examples",
+    "github_account": "",
+    "description": "A simple Python package with automatic documentation",
+    "author_name": "",
+    "author_email": "",
+    "year": "",
+    "_copy_without_render": [
+        "*.html"
+    ]
+}
