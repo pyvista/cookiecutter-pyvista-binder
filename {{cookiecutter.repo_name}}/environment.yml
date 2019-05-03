@@ -1,11 +1,11 @@
 name: vtki-environment
 channels:
   - bokeh/label/dev
-  - pyviz/label/dev
 dependencies:
   - python
   - bokeh
-  - panel
+  - pyviz_comms
   - pip:
     - git+git://github.com/vtkiorg/vtki@master
     - matplotlib
+    - pyct
