@@ -13,7 +13,7 @@
 Credits
 -------
 
-This project was created with `Cookiecutter`_ and the `pyvista/cookiecutter-vista-binder`_ project template.
+This project was created with `Cookiecutter`_ and the `pyvista/cookiecutter-pyvista-binder`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`pyvista/cookiecutter-vista-binder`: https://github.com/pyvista/cookiecutter-vista-binder
+.. _`pyvista/cookiecutter-pyvista-binder`: https://github.com/pyvista/cookiecutter-pyvista-binder

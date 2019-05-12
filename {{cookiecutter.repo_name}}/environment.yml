@@ -1,4 +1,4 @@
-name: vista-environment
+name: pyvista-environment
 channels:
   - bokeh/label/dev
 dependencies:
@@ -6,6 +6,6 @@ dependencies:
   - bokeh
   - pyviz_comms
   - pip:
-    - git+git://github.com/pyvista/vista@master
+    - git+git://github.com/pyvista/pyvista@master
     - matplotlib
     - pyct
