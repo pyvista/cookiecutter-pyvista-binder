@@ -6,7 +6,7 @@ dependencies:
   - python
   - bokeh
   - pyviz_comms
-  - panel
+  - panel=0.6.0
   - pip:
     - git+git://github.com/pyvista/pyvista@master
     - matplotlib
