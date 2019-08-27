@@ -1,6 +1,5 @@
 name: pyvista-environment
 channels:
-  - bokeh/label/dev
   - pyviz
 dependencies:
   - python
