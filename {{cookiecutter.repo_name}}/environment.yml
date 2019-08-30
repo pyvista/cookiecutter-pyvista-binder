@@ -7,6 +7,6 @@ dependencies:
   - pyviz_comms
   - panel
   - pip:
-    - pyvista
+    - git+git://github.com/pyvista/pyvista@master
     - matplotlib
     - pyct
