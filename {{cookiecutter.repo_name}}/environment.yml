@@ -2,7 +2,7 @@ name: pyvista-environment
 channels:
   - pyviz
 dependencies:
-  - python
+  - python=3.7
   - bokeh
   - pyviz_comms
   - panel
