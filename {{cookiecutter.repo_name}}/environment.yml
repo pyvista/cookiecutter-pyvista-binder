@@ -10,7 +10,7 @@ dependencies:
     - scipy
     - matplotlib
     - pyct
-    - pandas=1.1.4
+    - pandas>=1.1.4
     - trimesh
     - ipyvtk-simple>=0.1.2
     - itkwidgets>=0.25.2
