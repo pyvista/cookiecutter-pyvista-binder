@@ -27,7 +27,7 @@ jobs:
           images: {{ '${{ env.REGISTRY }}' }}/{{ '${{ env.IMAGE_NAME }}' }}/{{ '${{ matrix.docker-file }}' }}
       - name: Set Docker tag based on branch
         run: |
-          if {{ github.ref == 'refs/heads/master' }}
+          if {{ "{{ github.ref == 'refs/heads/master' }}" }}
           then
             echo "BASE_IMAGE_TAG=latest" >> $GITHUB_ENV
           else
