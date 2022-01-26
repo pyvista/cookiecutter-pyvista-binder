@@ -25,6 +25,14 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: {{ '${{ env.REGISTRY }}' }}/{{ '${{ env.IMAGE_NAME }}' }}/{{ '${{ matrix.docker-file }}' }}
+      - name: Set Docker tag based on branch
+        run: |
+          if {{ github.ref == 'refs/heads/master' }}
+          then
+            echo "BASE_IMAGE_TAG=latest" >> $GITHUB_ENV
+          else
+            echo "BASE_IMAGE_TAG=main" >> $GITHUB_ENV
+          fi
       - name: Build and push the Docker image
         uses: docker/build-push-action@v2
         with:
@@ -33,3 +41,5 @@ jobs:
           push: true
           tags: {{ '${{ steps.meta.outputs.tags }}' }}
           labels: {{ '${{ steps.meta.outputs.labels }}' }}
+          build-args: |
+            BASE_IMAGE_TAG={{ '${{ env.BASE_IMAGE_TAG }}' }}

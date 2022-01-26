@@ -1,5 +1,5 @@
-ARG BASE_IMAGE=ghcr.io/pyvista/pyvista:latest
-FROM $BASE_IMAGE
+ARG BASE_IMAGE_TAG=latest
+FROM ghcr.io/pyvista/pyvista:$BASE_IMAGE
 
 COPY . ${HOME}
 WORKDIR ${HOME}
